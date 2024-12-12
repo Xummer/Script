@@ -1,4 +1,6 @@
 # NAME: OpenAI
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
 DOMAIN,chat.openai.com
 DOMAIN,platform.openai.com
 DOMAIN,static.metafi.codefi.network
