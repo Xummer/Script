@@ -1,0 +1,24 @@
+# NAME: Claude
+# Claude Web API
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+# API endpoint
+DOMAIN,api.anthropic.com
+# CDN / static
+DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,claudeassets.com
+DOMAIN-SUFFIX,console.anthropic.com
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net
+# OAuth / login
+DOMAIN-SUFFIX,auth.anthropic.com
+# telemetry / misc
+DOMAIN-SUFFIX,statsig.anthropic.com
+DOMAIN-SUFFIX,cdn.anthropic.com
+# Claude Code CLI npm / auth
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,nodejs.org
+# optional wildcard safety
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
