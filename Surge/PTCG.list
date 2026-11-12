@@ -1,0 +1,8 @@
+# PTCG
+
+# Added for: player-api-prod.app-41283.com:443
+DOMAIN-SUFFIX,player-api-prod.app-41283.com
+# Added for: prod-game-assets-app-41283.akamaized.net:443
+DOMAIN-SUFFIX,akamaized.net
+# Added for: 1c04691f14f85ad285ebb3d2ffa4aef0.baas.nintendo.com:443
+DOMAIN-SUFFIX,nintendo.com
