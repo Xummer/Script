@@ -1,36 +1,33 @@
 # NAME: Claude
-# Claude Web API
+# Web, API, authentication, docs, and native downloads
+# https://code.claude.com/docs/en/network-config#network-access-requirements
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,clau.de
-# API endpoint
-DOMAIN,api.anthropic.com
-# CDN / static
-DOMAIN,cdn.usefathom.com
-DOMAIN-SUFFIX,claudeusercontent.com
+
+# Desktop previews, artifacts, and embedded MCP apps
+DOMAIN-SUFFIX,claude.app
 DOMAIN-SUFFIX,claudeassets.com
-DOMAIN-SUFFIX,console.anthropic.com
+DOMAIN-SUFFIX,claudemcpcontent.com
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# Shared package registry and storage (plugins and legacy installers)
+DOMAIN,registry.npmjs.org
+DOMAIN,storage.googleapis.com
+
+# Shared web assets and support
+DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net
-# OAuth / login
-DOMAIN-SUFFIX,auth.anthropic.com
-# telemetry / misc
-DOMAIN-SUFFIX,statsig.anthropic.com
-DOMAIN-SUFFIX,cdn.anthropic.com
-# Claude Code CLI npm / auth
-DOMAIN-SUFFIX,npmjs.org
-DOMAIN-SUFFIX,nodejs.org
-# MCP & Ecosystem
-DOMAIN-SUFFIX,modelcontextprotocol.io
-# Updates & Distribution
-DOMAIN,downloads.claude.ai
-DOMAIN,storage.googleapis.com
-# Feature Flags & Telemetry
+
+# Optional feature flags and telemetry
+DOMAIN,browser-intake-us5-datadoghq.com
 DOMAIN,cdn.growthbook.io
-# optional wildcard safety
-DOMAIN-KEYWORD,anthropic
-DOMAIN-KEYWORD,claude
-# Anthropic IP Ranges (AS399358)
+DOMAIN,http-intake.logs.us5.datadoghq.com
+
+# Anthropic service IPs (inbound only; do not trigger DNS lookups)
+# https://platform.claude.com/docs/en/api/ip-addresses#inbound-ip-addresses
+IP-CIDR,153.61.224.0/22,no-resolve
 IP-CIDR,160.79.104.0/23,no-resolve
-IP-CIDR,160.79.104.0/21,no-resolve
 IP-CIDR6,2607:6bc0::/48,no-resolve
