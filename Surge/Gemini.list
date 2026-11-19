@@ -74,6 +74,11 @@ DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
 # Antigravity cli
 DOMAIN-SUFFIX,antigravity-cli
 DOMAIN-SUFFIX,antigravity-cli-auto-updater
+DOMAIN,play.googleapis.com
+DOMAIN,oauth2.googleapis.com
+DOMAIN,www.googleapis.com
+DOMAIN,lh3.googleusercontent.com
+DOMAIN,www.gstatic.com
 
 # Antigravity app process fallback (macOS only; case-sensitive)
 PROCESS-NAME,Antigravity
