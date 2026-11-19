@@ -71,6 +71,10 @@ DOMAIN-SUFFIX,opal.google.com
 DOMAIN-SUFFIX,stitch.withgoogle.com
 DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
 
+# Antigravity cli
+DOMAIN-SUFFIX,antigravity-cli
+DOMAIN-SUFFIX,antigravity-cli-auto-updater
+
 # Antigravity app process fallback (macOS only; case-sensitive)
 PROCESS-NAME,Antigravity
 PROCESS-NAME,antigravity
